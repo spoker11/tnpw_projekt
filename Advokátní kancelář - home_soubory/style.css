@@ -1,0 +1,195 @@
+
+
+body { margin: 0; }
+
+header { 
+  text-align: center;
+  
+  color: #D0D0D0;
+  font-size: 30px;
+  
+  background-position:center;
+  background-repeat: no-repeat;
+  opacity: 100%;
+    
+  
+}
+
+header img {padding:5px;}
+
+
+
+body{background-image:url(images/img_p3-1.jpg);
+    opacity: 90%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
+}
+
+a {text-decoration:none;color:inherit;}
+
+nav { font-family : "Times New Roman", Times, serif; font-size:1em; text-align: center; color:#FFFFFF; text-decoration: none;border: 1.5px solid #FFFFFF; padding: 10px;background-color: #1d1d1d; }
+nav ul {list-style-type: none; display:inline;}
+nav li {display:inline; }
+nav li a {padding-left:30px;padding-right:30px;}
+nav a:hover {background-color: #000066; text-decoration: none;transition-duration: 1s;} 
+
+
+
+main { font-family: "Times New Roman", Times, serif;padding-bottom:20px;background: #FFFFFF;padding-top:20px;overflow:auto;}
+p{margin-left: 5%;margin-right: 5%;font-size: 18px;}
+h2 {margin-left: 5%; padding-left: 30px;padding-top: 30px;font-size: 25px;}
+div { padding:  10px; margin-left: 0%;margin-right:0%;padding-bottom: 80px;border-top: 1px solid #000000;padding-top: 30px;}
+h3{margin-left: 5%; padding-left: 30px;padding-top: 30px;font-size: 25px;}
+
+table{margin:auto;;padding-left:150px; }
+table td{padding: 5px 15px 5px 15px; text-align: center;border: 1px solid #000000;}
+table th{text-align: right;padding: 10px; border: 1px solid #000000;}
+
+
+
+
+
+footer{border-top: 1px solid #000000; margin-bottom: 0px; text-align: center;font-family: "Times New Roman", Times, serif
+;padding: 10px;clear: both; font-size: 12px; color: white;}
+
+ 
+
+.img-right{float: right; padding: 15px;margin-right: 5%;padding-top:30px;opacity:100%}
+.img-left {float: left; padding: 15px;padding-top: 30px;}
+.img-right2{float: right; padding: 15px;margin-right: 5%;padding-top:30px;}
+.img-left3{float: left; padding: 15px;padding-top: 30px;}
+.img-right4{float: right; padding: 15px;margin-right: 5%;padding-top:30px;}
+.img-center {float: left; padding: 15px;padding-top: 30px;}
+.bgpic{position: fixed;opacity: 70%}
+.table{margin-left: 20px;float: left; }
+.table th {text-align: right;}
+.table td {text-align: left;}
+.mapa_m{display: none;}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  transition: 0.3s;
+}
+
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+
+.price .header {
+  background-color: #000066;
+  color: white;
+  font-size: 25px;
+}
+
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+
+.button {
+  background-color: #000066;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+ul.sluzbyUL {
+font-size: 18px;
+text-align: left;
+margin-left: 750px;  
+}
+
+
+.sluzbyh2 {
+padding-right: 100px;
+text-align: center;
+    
+}
+
+
+
+@media only screen and (min-width:300px) and (max-width: 600px) {
+  .columns {
+    width: 100%; }
+    
+    nav{display:flex; width: 150px; margin:auto;padding-right: 30px;border: none;text-align: left;}
+    nav ul {font-size: 21px; }
+    nav li a {padding:0;}
+    h2 {font-size: 18px;}
+    p{font-size: 12px;}
+    ul.sluzbyUL{font-size: 12px;margin:inherit; }
+    
+    
+    footer {font-size: 8px;}
+     
+    .mapa_m{display: inherit;width: 300px; height: 250px;}
+    .Logo {display: inherit; width: 160px; padding: 10px;}
+    
+
+    
+
+
+}
+
+@media only screen and (min-width:600px) and (max-width: 900px)
+{
+    img {border-radius: 50%;}
+    nav{display:flex; width: 150px; margin:auto;padding-right: 30px;border: none;text-align: left;}
+  
+    nav ul {font-size: 25px; }
+    nav li a {padding:0;}
+    h2 {font-size: 22px;}
+    p{font-size: 15px;}
+    ul.sluzbyUL{font-size: 15px;margin:inherit;}
+    
+    
+    footer {font-size: 10px;}
+    
+    .mapa_m{display: inherit; width: 500px; height: 350px;}
+    .Logo {display: inherit; width: 250px; padding: 10px;}
+    
+    
+
+}
+
+
+@media only screen and (min-width:900px)
+    {
+.mapa_m{display: inherit; width: 1000px; height: 550px;border:0;float: right;padding: 20px; }
+        
+}
