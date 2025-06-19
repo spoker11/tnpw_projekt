@@ -1,1 +1,1 @@
-# tnpw_projekt
+Cílem tohoto projektu bylo vytvořit webové stránky pro fiktivního právníka Jakuba Slánského. Tyto stránky slouží zejména jako představení osoby samotné široké veřejnosti, konktrétně zájemcům o právní služby, a představení poskytovaných služeb. Jelikož se jedná o velmi váženou profesi, tak desing stránek byl zvolen decentní a střídmý. Největší péče byla věnována přehlednosi a nepřesycenosti stránek. 
